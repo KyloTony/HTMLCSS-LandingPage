@@ -220,7 +220,7 @@ section {
   flex: 0 0 58.333333%;
   background-image: url('../img/vista.jpg');
   background-size: cover;
-  background-position: top cover;
+  background-position: top center;
   min-height: 400px;
 }
 .full-banner-sidebar {
@@ -237,7 +237,7 @@ section {
   font-style: italic;
   line-height: 1;
 }
-.full-banner-sidebar h4::after {
+.full-banner-sidebar h4:after {
   content: "";
   width: 100px;
   height: 1px;
